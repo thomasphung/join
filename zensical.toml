@@ -5,7 +5,7 @@ site_description = "The FedRAMP Cybersecurity Service hires cloud security engin
 site_author = "pete@fedramp.gov"
 site_dir = "html/"
 docs_dir = "markdown/"
-site_url = "https://fedramp.gov/join/"
+site_url = "https://www.fedramp.gov/join/"
 repo_url = "https://github.com/fedramp/join"
 repo_name = "FedRAMP/join"
 nav = [
@@ -98,3 +98,7 @@ alternate_style = true
 [project.markdown_extensions.pymdownx.emoji]
 emoji_index = "zensical.extensions.emoji.twemoji"
 emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.extra.analytics]
+provider = "google"
+property = "G-395251184"
